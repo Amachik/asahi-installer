@@ -1,0 +1,13 @@
+09-28 10:45 root         INFO     Startup
+09-28 10:45 root         INFO     Environment:
+09-28 10:45 root         INFO       INSTALLER_BASE=None
+09-28 10:45 root         INFO       INSTALLER_DATA=None
+09-28 10:45 root         INFO       REPO_BASE=None
+09-28 10:45 root         INFO       IPSW_BASE=None
+09-28 10:45 root         ERROR    Exception caught
+Traceback (most recent call last):
+  File "/Users/hiyori/Documents/GitHub/asahi-installer/src/main.py", line 850, in <module>
+    installer_version = open("version.tag", "r").read()
+FileNotFoundError: [Errno 2] No such file or directory: 'version.tag'
+09-28 10:45 root         INFO     MSG: If you need to file a bug report, please attach the log file:
+09-28 10:45 root         INFO     MSG:   /Users/hiyori/Documents/GitHub/asahi-installer/src/installer.log
